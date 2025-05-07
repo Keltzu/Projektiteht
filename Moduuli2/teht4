@@ -1,0 +1,4 @@
+Simulaatiossa tapahtumat etenevät kolmessa vaiheessa: tapahtumien käsittely, asiakkaiden valinta palveluun ja uusien tapahtumien aikataulutus. Simuloinnin eteneminen kuvataan vaihe vaiheelta siihen saakka, kunnes yksi asiakas tyyppiä Y on poistunut järjestelmästä.
+Simulaation alkuhetkellä asiakkaita saapuu sekä X- että Y-tyyppisinä. Y-tyypin asiakkaat ovat priorisoituja, joten jos palvelupiste vapautuu ja jonossa on Y-asiakas, hän saa palvelun ennen X-tyypin asiakkaita.
+Kuvitteellisessa etenemisessä asiakas A2, tyyppiä Y, saapuu aikaan 1.5. Hän siirtyy jonoon ja aloittaa palvelun heti, kun palvelupiste vapautuu. Palvelu alkaa ajassa 2.0 ja päättyy ajassa 5.0. Tällöin asiakas A2 poistuu järjestelmästä, ja simulaatio päättyy tähän tehtävänannon mukaisesti.
+
